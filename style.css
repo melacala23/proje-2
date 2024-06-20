@@ -50,9 +50,14 @@ body {
 
 }
 .container_aviso{
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 12px;
+    color: var(--cinza-secundario);
 }
+.container_titulo {
+font-size: 28px;
+font-weight: 700px;
+}
+
 .container_imagem{
     margin: 1em 0 2em 0;
 }
@@ -64,7 +69,7 @@ body {
     width: 80%;
 }
 .secundario{
-    align-itens: center;
+    align-items: center;
     margin: 0 10cm;
 }
 .descricao__titulo{
@@ -79,5 +84,27 @@ margin-top: e.1em;
 }
 
 .secundario__botao{
-    
+    display: inline-block;
+    margin-top: 1em;
+}
+    .container__descricao{
+        padding: 2em;
+}
+
+.dispositivos__lista{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: sem 0;
+}
+.dispoitivos {
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 48p;
+    color: var(--branco-principal);
+}
+.lista__item{
+    font-size: 32px;
 }
